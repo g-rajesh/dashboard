@@ -1,0 +1,130 @@
+.Coins {
+  padding: 3rem;
+  width: 100%;
+}
+
+.Coins .header button:nth-child(1) {
+  border-left: 1px solid #c2c7d0;
+}
+
+.Coins .header button:nth-child(2) {
+  border-right: 1px solid #c2c7d0;
+}
+
+.Coins .header button {
+  border: none;
+  padding: 0.65rem 1.25rem;
+  background: #fff;
+  outline: none;
+  border-top: 2px solid #c2c7d0;
+  margin-bottom: -1px;
+  font-size: 0.95rem;
+}
+
+.Coins .buy {
+  width: 100%;
+  border: 1px solid #c2c7d0;
+  padding: 0.65rem 1.25rem;
+}
+
+.buy .offer h2,
+.offer .custom h2,
+.payment h2 {
+  font-size: 1.25rem;
+  color: #c2c7d0;
+  font-weight: 400;
+}
+
+.offer {
+  margin-bottom: 0.5rem;
+}
+
+.offer form,
+.payment form {
+  margin-bottom: 0.65rem;
+  margin-left: 1.5rem;
+}
+
+.info {
+  margin-left: 1rem;
+  color: #1ba94c;
+  cursor: pointer;
+}
+
+.information {
+  position: relative;
+}
+
+.information h2 {
+  display: inline;
+}
+
+.information .visible {
+  position: absolute;
+  top: -20px;
+  left: 18%;
+  width: 140px;
+  font-size: 14px;
+  background: #1ba94c;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 3px;
+  display: none;
+}
+
+.information .visible::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #1ba94c;
+  position: absolute;
+  top: 25px;
+  left: -5px;
+  transform: rotate(45deg);
+}
+
+.information .info:hover ~ .visible {
+  display: block;
+}
+
+.customField {
+  display: block;
+  margin: 0 1.5rem;
+}
+
+.customField label {
+  margin-right: 1rem;
+}
+
+.customField input {
+  width: 15rem;
+  padding: 0.5rem 0.85rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.customField input:focus {
+  border: 2px solid #1ba94c;
+  border-radius: 3px;
+}
+.customField input::-webkit-outer-spin-button,
+.customField input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.payment p {
+  margin: 0.65rem 0;
+}
+
+.payment .amnt {
+  color: #c2c7d0;
+}
+
+.payment .pay {
+  border: none;
+  outline: none;
+  background-color: #1ba94c;
+  color: #fff;
+  padding: 0.65rem 1rem;
+  border-radius: 3px;
+}

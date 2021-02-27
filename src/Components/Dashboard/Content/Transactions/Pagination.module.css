@@ -1,0 +1,43 @@
+.pagination {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination a {
+  margin: 0 5px;
+  min-width: 33px;
+  line-height: 30px;
+}
+
+.pagination ul {
+  display: flex;
+}
+
+.pagination ul li {
+  list-style: none;
+  font-size: 1rem;
+}
+
+.pagination ul li a {
+  background: #f0f0f4;
+  color: #39424e;
+  border-radius: 2px;
+  padding: 0 5px;
+  border: 1px solid #c2c7d0;
+  display: block;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.pagination .active a {
+  background: #2ec866;
+  color: #fff;
+  border: 1px solid #13a853;
+}
+
+.pagination .disable a {
+  opacity: 0.3;
+  cursor: default;
+}

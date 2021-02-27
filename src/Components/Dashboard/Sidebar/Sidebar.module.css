@@ -1,0 +1,59 @@
+.Sidebar {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background: #f8f9fa;
+}
+
+header {
+  margin: 2rem 0;
+}
+
+.image {
+  position: relative;
+  margin-bottom: 0.7rem;
+}
+
+header img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.edit {
+  font-size: 1.5rem;
+  background: #333;
+  color: #2a9d8f;
+  border-radius: 50%;
+  padding: 0.15rem 0.275rem;
+  position: absolute;
+  top: 55%;
+  right: 30%;
+}
+
+header h5 {
+  text-align: center;
+}
+
+header h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #999;
+  display: block;
+  margin: 1.25rem 0;
+  padding: 0.25rem 2rem;
+}
+
+.links li a:hover {
+  border-left: 0.3rem solid #696969;
+  color: #696969;
+  transition: all 0.2s ease;
+}

@@ -1,0 +1,88 @@
+.Profile {
+  width: 100%;
+  padding: 3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+}
+
+.tab {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab h2 {
+  font-size: 1.25rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.tab h4 {
+  font-size: 1rem;
+  color: #c2c7d0;
+  font-weight: 400;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left h4 {
+  font-size: 14px;
+  margin-bottom: 0.45rem;
+}
+
+.graph {
+  width: 240px;
+  height: 0.5rem;
+  border: 1px solid #c2c7d0;
+  position: relative;
+  cursor: pointer;
+}
+
+.bg {
+  width: 40%;
+  height: 100%;
+  background-color: #1ba94c;
+}
+
+.graph span {
+  margin: 1rem 0;
+  font-size: 11px;
+  position: absolute;
+  top: 0;
+  left: 23%;
+  padding: 0 0.45rem;
+  background-color: #1ba94c;
+  color: #fff;
+  border-radius: 3px;
+  display: none;
+}
+
+.graph span::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #1ba94c;
+  position: absolute;
+  top: -5px;
+  left: 48%;
+  transform: rotate(45deg);
+}
+
+.graph:hover span {
+  display: block;
+}

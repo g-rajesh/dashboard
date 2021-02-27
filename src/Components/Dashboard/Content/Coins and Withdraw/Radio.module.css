@@ -1,0 +1,7 @@
+.field {
+  display: block;
+}
+
+.field input {
+  margin: 0.45rem 1rem 0.45rem 0;
+}
